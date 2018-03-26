@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+class Circle {
+	
+}
+
+public class analysis {
+	public static void main(String[] args) {
+		  Circle circle1 = new Circle();
+		  ArrayList<String> list = new ArrayList<String>();
+		  String s1 = new String("Java"); 
+		  String s2 = new String("Java"); 
+		  list.add(s1);
+		  list.add(s2); 
+		  System.out.println((list.get(0) == list.get(1)) + " " + (list.get(0)).equals(list.get(1)));
+		}
+}
+
